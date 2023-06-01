@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../background.png);
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+    background-color: #212527;
+    height: 80px;
+    margin: 10px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+
+ul li a {
+    color: rgb(231, 220, 220);
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+    ul li a:hover {
+        color: red;
+        text-align: center;
+    }
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu li {
+    float: none;
+    padding: 25px;
+    text-align: center;
+}
+
+    .menu li a {
+        text-decoration: none;
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+.pepene{
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgb(156, 66, 66);
+}
+
+.slider{
+    width: 533px;
+    height: 400px;
+    margin: 20px auto;
+    margin-left: 20px;
+    background: url(1.jpg.jpg);
+    animation: slide 10s infinite;
+}
+
+@keyframes slide{
+    20%{
+        background: url(2.jpg.jpg);
+    }
+    40%{
+        background:url(3.jpg.jpg) ;
+    }
+    60%{
+        background: url(4.jpg.jpg);
+    }
+    80%{
+        background: url(5.jpg.jpg) ;
+    }
+    100%{
+        background: url(1.jpg.jpg) ;
+    }
+}
+
+.titre{
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+.text{
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+
+.fond{
+    background-color: rgb(156, 66, 66);
+}

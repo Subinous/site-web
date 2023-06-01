@@ -1,0 +1,219 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../background.png);
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+    background-color: #212527;
+    height: 80px;
+    margin: 10px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+
+ul li a {
+    color: rgb(231, 220, 220);
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+    ul li a:hover {
+        color: red;
+        text-align: center;
+    }
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu li {
+    float: none;
+    padding: 25px;
+    text-align: center;
+}
+
+    .menu li a {
+        text-decoration: none;
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+.container{
+    position: relative;
+    width: 1100px;
+  ;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container .card {
+    position: relative;
+    max-width: 300px;
+    height: 215px;
+    background: rgb(156, 66, 66);
+    margin: 30px 10px;
+    padding: 20px 15px;
+    flex-direction: column;
+    box-shadow: 0 5px 202px rgba(16, 134, 128, 0.5);
+    transition: 0.3s ease-in-out;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .card:hover{
+    height: 725px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .card .imgbx {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.container .card .imgbx img {
+    max-width: 100%;
+    border: 4px;
+    position: relative;
+    
+}
+
+.container .card .content{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: rgb(238, 238, 238);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.1s ease-in-out;
+    
+}
+
+.container .card:hover .content{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+    
+}
+
+.entrer{
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.container2{
+    position: relative;
+    width: 1100px;
+  ;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container2 .card {
+    position: relative;
+    max-width: 300px;
+    height: 215px;
+    background: rgb(156, 66, 66);
+    margin: 30px 10px;
+    padding: 20px 15px;
+    flex-direction: column;
+    box-shadow: 0 5px 202px rgba(16, 134, 128, 0.5);
+    transition: 0.3s ease-in-out;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container2 .card:hover{
+    height: 525px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container2 .card .imgbx {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.container2 .card .imgbx img {
+    max-width: 100%;
+    border: 4px;
+    position: relative;
+    
+}
+
+.container2 .card .content{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: rgb(238, 238, 238);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.1s ease-in-out;
+    
+}
+
+.container2 .card:hover .content{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.1s;
+    
+}
+
+.master{
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgb(156, 66, 66);
+}
+
+.entrer2{
+    font-size: 25px;
+    color: aliceblue;
+    text-align: justify;
+}
+
+
+.pre{
+    background-color: rgb(156, 66, 66);
+}

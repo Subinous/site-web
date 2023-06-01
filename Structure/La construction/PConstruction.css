@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-image: url(../background.png);
+}
+
+.header {
+    text-align: center;
+    background-color: #212527;
+    height: 80px;
+    margin: 10px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+
+ul li a {
+    color: rgb(231, 220, 220);
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+    ul li a:hover {
+        color: red;
+        text-align: center;
+    }
+
+.menu {
+     display: flex;
+     justify-content: space-around;
+    align-items: center;
+}
+
+.menu li {
+    float: none;
+    padding: 25px;
+    text-align: center;
+}
+
+    .menu li a {
+        text-decoration: none;
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+section {
+    margin-top: 10%;
+    display: flex;
+}
+
+section article {
+    padding: 10px;
+    margin: 10px;
+    background: aqua;
+    flex: 200px;
+}
+
+#probleme{
+    color: rgb(231, 220, 220);
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+

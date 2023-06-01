@@ -1,0 +1,83 @@
+<!DOCTYPE html">
+
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="PConstruction.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <ul class="menu">
+                <li><a href="../Page Principale/Menu.html">Home</a></li>
+                <li><a href="../Le jeu/PJeu.html">Le jeu</a></li>
+                <li><a href="PConstruction.html">Road Map</a></li>
+                <li><a href="../Contact/PContact.html">Qui sommes nous ?</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+</body>
+
+<section>
+    <article>
+        <h2>Découverte du projet</h2>
+        
+        <p>Nous avons avant tout découvert le jeu et prise connaissance de ses règles, ce qui nous a permis de visualiser les fonctions nécessaires pour développer le jeu, ainsi que choisir le langage.</p>
+        <img src="i2.png">
+        <p>Il existe beaucoup de Mastermind différent avec des pour chacune des particularités ce qui nous a permis de visualiser les possibilités d'évolution du jeu mais également son concept</p>
+        <p>Nous avons également commecé à réfléchir aux stratégies possibles tout en découvrant le jeu</p>
+    </article>
+    
+    <article>
+        <h2>Première version</h2>
+    
+        <p>Une fois les fonctions nécessaires visualiser, il ne reste plus qu'a faire une version d'essai du jeu pour analyser les mécaniques manquantes lors de la visualisation</p>
+        <img src="i1.png">
+        <p>Cette première version sous forme de console ne comprenait pas d'IA, elle avait été créé dans le but d'analyser quelles sont les sous-programmes nécessaires au jeu et qu'est-ce que le jeu doit retourner/afficher</p>
+        <p>Nous n'avions jusqu'à présent aucun problème lors du développement du jeu ce qui nous a poussé à aller plus loin et développer le jeu avec une interface graphique</p>
+    </article>
+    
+    <article>
+        <h2>Développement d'une interface graphique</h2>
+        
+        <p>Avec la première version du jeu sur console, nous avons décidé de partir sur un affichage graphique pour avoir une meilleure expérience de jeu, comme nous étions en python la librairie choisie est donc Tkinter</p>
+        <img src="i3.png">
+        <p>Le développement de la partie graphique a été la partie la plus longue du projet, puisqu'il fallait apprendre à utiliser Tkinter mais aussi à comprendre les limites de la librairie et comment les coutournés, je prends pour exemple un problème réccurent que j'ai eu lors du développement, la nécessité d'une deuxième fenêtre graphique mais le problème étant que lorsqu'une nouvelle fenêtre s'ouvrait le sous-programme l'ayant ouvert s'arrêtait à cette ligne sans executé la suite</p>
+    </article>
+
+    <article>
+        <h2>Conception de l'intelligence artificielle</h2>
+    
+        <p>Pour avoir un jeu varié il était nécessaire d'avoir un mode de jeu contre l'IA alors en même temps que le développement de l'interface graphique l'IA était en développement sur la version console du jeu</p>
+        <img src="i4.jpg">
+        <p>Il existe beaucoup de stratégie pour gagner au Mastermind ainsi il existe une large variété d'IA et d'autres méthodes pour gagner au Mastermind</p>
+        <p>Après analyse des plusieurs stratégies disponibles pour gagner au Mastermind nous avons opté pour une IA qui calcule les possibilités et qui a chaque essaie réduit le nombre de possibilités jusqu'à trouver la solution, nous avions également tenté au départ de faire une IA basé sur la stratégie de Donald Knuth qui trouve la solution en 5 essaies</p>
+        <p>Mais il existe d'autre solution alternative à l'Intelligence Artificielle comme par exemple un réseau de neuronne ou le deepMind</p>
+
+    </article>
+
+    <article>
+        <h2>Adaptation du jeu au format TKinter</h2>
+    
+        <p>Une fois une interface graphique fonctionnelle et convenable nous avons dû réadapter le programme de test sur console pour qu'il convienne à une bonne exploitation de l'interface graphique</p>
+        <img src="i5.jpeg">
+        <p>Cette partie a été effectué en même temps que la création d'une interface graphique les deux étant liés, beaucoup de problèmes ont ralenti le développement de la partie graphique car il était nécessaire de réadapter le code, je prends pour exemple la comparaison qui compte combien de billes sont bonnes... , ce sous programme a été refais 5 fois de zéro pour correspondre au format Tkinter</p>
+    </article>
+</section>
+
+<div id="Probleme">
+    <h2>Les Problèmes</h2>
+    <p>Les problèmes rencontrés ont été nombreux les plus marquant seront présents dans cette section</p>
+    <ul>
+        <li>La stratégie choisie par l'IA et son optimisation</li>
+        <li>Le sous-programme comptant les billes bien placées et mal placé de bonne couleurs</li>
+        <li>Le plus gros de tous l'affichage Tkinter</li>
+        <li>L'adaptation du jeu avec des paramètres</li>
+        <li>Le manque de temps pour aller plus loin dans le développement</li>
+    </ul>
+</div>
+
+
+
+</html>
